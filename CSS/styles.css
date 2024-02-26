@@ -1,0 +1,16 @@
+body {
+font-family: "Montserrat", sans-serif;
+}
+
+.header-logo {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 111%;
+        letter-spacing: -0.03em;
+        color: var(--black);
+}
+
+.header-logo-cursive {
+    font-style: italic;
+
+}
