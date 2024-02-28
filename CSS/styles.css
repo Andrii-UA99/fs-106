@@ -14,3 +14,64 @@ font-family: "Montserrat", sans-serif;
     font-style: italic;
 
 }
+
+
+.hero {
+    background: rgba(17, 17, 17, 0.6);
+}
+.hero-title {
+        font-weight: 500;
+            font-size: 28px;
+            line-height: 1.21;
+            letter-spacing: -0.03em;
+            color: #fff;
+}
+
+.hero-button {
+background: #fd9222;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.hero-made-btn {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.hero-down-bt {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+/* f */
+
+.features {
+background: #1e1823;
+}
+
+.features-list {
+
+}
+
+.features-item {
+
+}
+
+.features-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.features-item-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
