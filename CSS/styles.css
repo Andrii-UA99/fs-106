@@ -11,6 +11,9 @@ a {
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+}
 
 .visually-hidden {
     position: absolute;
@@ -41,6 +44,11 @@ a {
 .header-logo-cursive {
     font-style: italic;
 
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+color: #fd9222;
 }
 
 
