@@ -2,6 +2,34 @@ body {
 font-family: "Montserrat", sans-serif;
 }
 
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+
+/* ======= header ======== */
+
 .header-logo {
         font-weight: 700;
         font-size: 18px;
@@ -15,6 +43,8 @@ font-family: "Montserrat", sans-serif;
 
 }
 
+
+/* ====================== Section hero =========================== */
 
 .hero {
     background: rgba(17, 17, 17, 0.6);
@@ -48,30 +78,89 @@ background: #fd9222;
     color: #fff;
 }
 
-/* f */
+
+
+/* ================== Features =============== */
 
 .features {
-background: #1e1823;
+    background: #1e1823;
 }
 
-.features-list {
+.features-list {}
 
-}
-
-.features-item {
-
-}
+.features-item {}
 
 .features-subtitle {
-    font-weight: 600;
-    font-size: 18px;
-    color: #fff;
+        font-weight: 600;
+        font-size: 18px;
+        color: #fff;
 }
 
 .features-item-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    color: rgba(255, 255, 255, 0.7);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.28571;
+        letter-spacing: -0.02em;
+        color: rgba(255, 255, 255, 0.7);
 }
+
+
+/* ======== section taste =============== */
+
+
+.taste {}
+
+.taste-title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.16;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #111;
+}
+
+.taste-title span {
+    color: #fd9222;
+
+}
+
+.taste-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #111;
+}
+
+.taste-list {}
+
+.taste-item {}
+
+.taste-image {}
+
+.taste-subtitle {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        color: #111;
+}
+
+
+/* ====== section MADE ========== */
+
+.made {}
+
+.made-title {}
+
+.made-image {}
+
+.made-subtitle {}
+
+.made-list {}
+
+.made-item {}
+
+.made-item-text {}
