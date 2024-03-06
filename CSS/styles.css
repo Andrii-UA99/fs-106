@@ -18,6 +18,9 @@ a {
     color: currentColor;
 }
 
+address {
+    font-style: normal;
+}
 button {
     cursor: pointer;
 }
@@ -36,15 +39,18 @@ button {
     overflow: hidden;
 }
 
-
-
-/* ======= header ======== */
-
 .container {
     width: 1166px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+}
+
+/* ======= header ======== */
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 32px;
 }
 
 .header-logo {
@@ -53,7 +59,33 @@ button {
         line-height: 111%;
         letter-spacing: -0.03em;
         color: var(--black);
+        display: flex;
+        align-items: center;
         
+}
+
+.header-contact-list {
+display: flex;
+gap: 14px;
+}
+
+.header-container {
+    display: flex;
+
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu-list {
+    display: flex;
+    gap: 14px;
+}
+
+.header-menu-item {
+
 }
 
 .header-logo-cursive {
@@ -94,12 +126,19 @@ background: #fd9222;
     font-weight: 600;
     font-size: 14px;
     color: #fff;
+    border-radius: 100px;
+        padding: 14px 40px;
+        width: 144px;
+        height: 45px;
 }
 
 .hero-made-btn {
     font-weight: 600;
     font-size: 14px;
     color: #fff;
+    border: 1px solid #fff;
+        border-radius: 100px;
+        padding: 14px 40px;
 }
 
 .hero-down-bt {
@@ -108,8 +147,14 @@ background: #fd9222;
     line-height: 1.29;
     letter-spacing: -0.03em;
     color: #fff;
+
 }
 
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
 
 
 /* ================== Features =============== */
@@ -120,9 +165,16 @@ background: #fd9222;
     padding-bottom: 50px;
 }
 
-.features-list {}
+.features-list {
+    display: flex;
+    gap: 88px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
 
-.features-item {}
+.features-item {
+    width: calc((100% - 2 * 88px) / 3);
+}
 
 .features-subtitle {
         font-weight: 600;
@@ -171,7 +223,7 @@ background: #fd9222;
         text-align: center;
         color: #111;
         min-width: 486px;
-        
+
 }
 
 .taste-list {}
